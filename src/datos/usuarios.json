@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1737741939145",
+    "usuario": "$2b$10$eMIeeusYBL4IG5fKYe1INOLcA/390WTKAPRyUg7l2/R9ZyC9voqny",
+    "password": "$2b$10$byO84uI0Gzr2bw2BiPLOj.94H8fl3LQLuD6B5RY8icwu.NkyYYJ9O",
+    "email": "lfprieto@registraduria.gov.co",
+    "permitido": true,
+    "admin": true
+  },
+  {
+    "id": "1737745630674",
+    "usuario": "$2b$10$UdKX7QEHxKp/3wOBpD3iMuw5TTYgDVXrqPFQusAIkb/cX5f.llbOq",
+    "password": "$2b$10$K67u6sjqA93alTqG80n58uUOXWt51q/LUEhxEbBhIwwtKyxZvHhau",
+    "email": "luis@registraduria.gov.co",
+    "permitido": false,
+    "admin": false
+  },
+  {
+    "id": "1737745919588",
+    "usuario": "$2b$10$Zdh3atnB1oeHofWfsuw4p.I1nvW4Ip42PgAla3XOy3BnyqfdMKxhO",
+    "password": "$2b$10$z7jxhgQupRHSdHQgFLzScOtAtYAvYRgVqKDLsNZkhqpZpZgl94HQi",
+    "email": "prueba@registraduria.gov.co",
+    "permitido": false,
+    "admin": false
+  }
+]

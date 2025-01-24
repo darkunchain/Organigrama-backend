@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Fernando medina",
+    "cargo": "Especialista de aplicaciones WEB",
+    "vertical": "Aplicaciones",
+    "correo": "fmedina@registraduria.gov.co",
+    "id": "1737746292115",
+    "activo": true
+  },
+  {
+    "nombre": "jhon doe",
+    "cargo": "Especialista de aplicaciones WEB",
+    "vertical": "Aplicaciones",
+    "correo": "jdoe@registraduria.gov.co",
+    "id": "1737746504442",
+    "activo": true
+  },
+  {
+    "nombre": "Luis Fernando Prieto",
+    "cargo": "Lider Tecnico",
+    "vertical": "Aplicaciones",
+    "correo": "lfprieto@registraduria.gov.co",
+    "id": "1737747456688",
+    "activo": true
+  }
+]

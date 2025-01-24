@@ -1,0 +1,80 @@
+######### Leer usuarios
+GET http://localhost:3000/auth/
+headers:
+Content-Type: application/json
+
+
+######### Leer usuarios
+GET http://localhost:3000/funcionarios
+headers:
+Content-Type: application/json
+
+
+
+######  Registro de usuario
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+"usuario": "prueba",
+"password": "prueba",
+"email": "prueba@registraduria.gov.co"
+}
+
+######  Login de usuario:
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+"usuario": "luis",
+"password": "luis"
+}
+
+
+###### Editar banderas de usuario (permitido, admin)
+// debe cambiar {id} por el id del funcionario a editar
+PUT http://localhost:3000/auth/1737741939145
+Content-Type: application/json
+
+{
+"permitido":true,
+"admin": true
+}
+
+###### 5. Eliminar usuario
+DELETE http://localhost:3000/auth/1737745599730
+Content-Type: application/json
+
+
+Gestion de tarjetas del organigrama (funcionarios)
+
+
+###### Crear funcionario
+POST http://localhost:3000/funcionarios
+Content-Type: application/json
+
+{
+"nombre": "Luis Fernando Prieto",
+"cargo": "Lider Tecnico",
+"vertical": "Aplicaciones",
+"correo": "lfprieto@registraduria.gov.co"
+}
+
+
+###### Editar funcionario
+// debe cambiar {id} por el id del funcionario a editar
+PUT http://localhost:3000/funcionarios/fargsqw123412sgrtwfgsdfger
+Content-Type: application/json
+
+{
+//"nombre": "Juan Pérez",
+//"cargo": "Líder de TI",
+//"vertical": "Liderazgo",
+"activo": true
+}
+
+
+###### 8. Eliminar funcionario
+// debe cambiar {id} por el id del funcionario a Eliminar
+DELETE http://localhost:3000/funcionarios/fargsqw123412sgrtwfgsdfger
+Content-Type: application/json
