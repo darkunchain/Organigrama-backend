@@ -5,10 +5,17 @@ async function getAllFuncionarios() {
     return await readJSON(FUNCIONARIOS_FILE);
 }
 
+async function getFuncionarioIdC(id) {
+    const funcionarios = await readJSON(FUNCIONARIOS_FILE);
+    const funcionarioId = funcionarios.find((f) => f.id === id);
+    if (!funcionarioId) throw new Error('Funcionario no encontrado');
+    return { message: 'Funcionario actualizado correctamente', funcionarioId };
+}
+
 async function createFuncionario(funcionario) {
     const funcionarios = await readJSON(FUNCIONARIOS_FILE);
     funcionario.id = Date.now().toString();
-    funcionario.activo = true;
+    funcionario.estado = true;
     funcionarios.push(funcionario);
     await writeJSON(FUNCIONARIOS_FILE, funcionarios);
     return { message: 'Funcionario agregado correctamente', id: funcionario.id };
@@ -31,4 +38,4 @@ async function deleteFuncionario(id) {
     return { message: 'Funcionario eliminado correctamente' };
 }
 
-module.exports = { getAllFuncionarios, createFuncionario, updateFuncionario, deleteFuncionario };
+module.exports = { getAllFuncionarios, createFuncionario, updateFuncionario, deleteFuncionario, getFuncionarioIdC };

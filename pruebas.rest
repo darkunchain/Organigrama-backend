@@ -10,6 +10,11 @@ headers:
 Content-Type: application/json
 
 
+######### Leer usuario por ID
+GET http://localhost:3000/funcionarios/1738167612719
+headers:
+Content-Type: application/json
+
 
 ######  Registro de usuario
 POST http://localhost:3000/auth/register
@@ -54,10 +59,11 @@ POST http://localhost:3000/funcionarios
 Content-Type: application/json
 
 {
-"nombre": "Luis Fernando Prieto",
-"cargo": "Lider Tecnico",
-"vertical": "Aplicaciones",
-"correo": "lfprieto@registraduria.gov.co"
+"nombre": "Oscar Adrian Rey Leal",
+"cargo": "Especialista de LAN",
+"vertical": "LAN y Seguridad",
+"correo": "oarey@registraduria.gov.co",
+"parentId":"1738168632453"
 }
 
 

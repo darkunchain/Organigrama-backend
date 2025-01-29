@@ -1,9 +1,19 @@
-const { getAllFuncionarios, createFuncionario, updateFuncionario, deleteFuncionario } = require('../services/funcionarios.service');
+const { getAllFuncionarios, createFuncionario, updateFuncionario, deleteFuncionario, getFuncionarioIdC } = require('../services/funcionarios.service');
 
 async function getFuncionarios(req, res) {
     try {
         const funcionarios = await getAllFuncionarios();
         res.status(200).json(funcionarios);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+}
+
+async function getFuncionarioId(req, res) {
+    try {
+        const { id } = req.params;
+        const funcionarioId = await getFuncionarioIdC(id);
+        res.status(200).json(funcionarioId);
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
@@ -38,4 +48,4 @@ async function remove(req, res) {
     }
 }
 
-module.exports = { getFuncionarios, create, update, remove };
+module.exports = { getFuncionarios, create, update, remove, getFuncionarioId };

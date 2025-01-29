@@ -1,26 +1,152 @@
 [
   {
     "nombre": "Fernando medina",
-    "cargo": "Especialista de aplicaciones WEB",
+    "cargo": "Especialista de aplicaciones",
     "vertical": "Aplicaciones",
     "correo": "fmedina@registraduria.gov.co",
     "id": "1737746292115",
-    "activo": true
-  },
-  {
-    "nombre": "jhon doe",
-    "cargo": "Especialista de aplicaciones WEB",
-    "vertical": "Aplicaciones",
-    "correo": "jdoe@registraduria.gov.co",
-    "id": "1737746504442",
-    "activo": true
+    "estado": true,
+    "parentId": "1738168772064",
+    "imagen": "./img/avatar.svg"
   },
   {
     "nombre": "Luis Fernando Prieto",
     "cargo": "Lider Tecnico",
-    "vertical": "Aplicaciones",
+    "vertical": "Liderazgo",
     "correo": "lfprieto@registraduria.gov.co",
     "id": "1737747456688",
-    "activo": true
+    "estado": true,
+    "parentId": "1738167612719",
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Rafael Gomez Valderrama",
+    "cargo": "Gerente de proyecto",
+    "vertical": "Liderazgo",
+    "correo": "rafael.gomez@tigo.com.co",
+    "parentId": "",
+    "id": "1738167612719",
+    "activo": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Lina Maria Cruz Barragan",
+    "cargo": "Lider de mesa de servicio",
+    "vertical": "Liderazgo",
+    "correo": "lmcruz@registraduria.gov.co",
+    "parentId": "1738167612719",
+    "id": "1738167924881",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Jhon Edison Silva Perez",
+    "cargo": "Lider ITIL y procesos",
+    "vertical": "Liderazgo",
+    "correo": "jesilvap@registraduria.gov.co",
+    "parentId": "1738167612719",
+    "id": "1738168164547",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Henry Nelson Gomez Alvarez",
+    "cargo": "Project Manager",
+    "vertical": "Liderazgo",
+    "correo": "hngomez@registraduria.gov.co",
+    "parentId": "1738167612719",
+    "id": "1738168526745",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Sandra Patricia Rojas Chaparro",
+    "cargo": "Lider de LAN y Seguridad",
+    "vertical": "LAN y Seguridad",
+    "correo": "sprojas@registraduria.gov.co",
+    "parentId": "1737747456688",
+    "id": "1738168632453",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Jhonathan Javier Muñoz Guerra",
+    "cargo": "Lider de Aplicaciones",
+    "vertical": "Aplicaciones",
+    "correo": "jjmunoz@registraduria.gov.co",
+    "parentId": "1737747456688",
+    "id": "1738168772064",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Eder Bernal Lopez",
+    "cargo": "Lider de Infraestructura",
+    "vertical": "Infraestructura",
+    "correo": "eibernal@registraduria.gov.co",
+    "parentId": "1737747456688",
+    "id": "1738168831900",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Jorge Luis Rojas Duran",
+    "cargo": "Lider de WAN",
+    "vertical": "WAN",
+    "correo": "jlrojas@registraduria.gov.co",
+    "parentId": "1737747456688",
+    "id": "1738168923277",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Luis Carlos Garcia Peña",
+    "cargo": "Lider de DataCenter",
+    "vertical": "DataCenter",
+    "correo": "lcgarcia@registraduria.gov.co",
+    "parentId": "1737747456688",
+    "id": "1738168985301",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Cristian Camilo Guarin Rodriguez",
+    "cargo": "Especialista de Seguridad",
+    "vertical": "LAN y Seguridad",
+    "correo": "ccguarin@registraduria.gov.co",
+    "parentId": "1738168632453",
+    "id": "1738169102799",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Camilo Andres Rojas Bohorquez",
+    "cargo": "Especialista de Seguridad",
+    "vertical": "LAN y Seguridad",
+    "correo": "crojas@registraduria.gov.co",
+    "parentId": "1738168632453",
+    "id": "1738169155545",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Alexander Urquijo Timaran",
+    "cargo": "Especialista de LAN",
+    "vertical": "LAN y Seguridad",
+    "correo": "aurquijo@registraduria.gov.co",
+    "parentId": "1738168632453",
+    "id": "1738169242434",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Oscar Adrian Rey Leal",
+    "cargo": "Especialista de LAN",
+    "vertical": "LAN y Seguridad",
+    "correo": "oarey@registraduria.gov.co",
+    "parentId": "1738168632453",
+    "id": "1738169292833",
+    "estado": true,
+    "imagen": "./img/avatar.svg"
   }
 ]
