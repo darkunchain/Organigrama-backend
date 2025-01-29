@@ -1,4 +1,7 @@
-estructura del proyecto:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% estructura del proyecto: %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 src
  ├── datos
  │    ├── usuarios.json
@@ -16,97 +19,89 @@ src
  │    └── fileManager.js
  ├── server.js
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%  Pruebas de Backend pruebas.rest: %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-1. Registro de usuario
-
-POST http://localhost:3000/auth/register
+######### Leer usuarios
+GET http://localhost:3000/auth/
 headers:
 Content-Type: application/json
 
-body json data
+
+######### Leer usuarios
+GET http://localhost:3000/funcionarios
+headers:
+Content-Type: application/json
+
+
+
+######  Registro de usuario
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
 {
-  "usuario": "luisprieto",
-  "password": "12345678",
-  "email": "lfprieto@registraduria.gov.co"
+"usuario": "prueba",
+"password": "prueba",
+"email": "prueba@registraduria.gov.co"
 }
 
-2. Login de usuario:
-
+######  Login de usuario:
 POST http://localhost:3000/auth/login
-headers:
 Content-Type: application/json
 
-body json
 {
-  "usuario": "luisprieto",
-  "password": "12345678"
-}
-
-3. Crear usuario (Administrador)
-
-POST http://localhost:3000/auth/register
-headers:
-Content-Type: application/json
-
-body json
-{
-  "usuario": "adminuser",
-  "password": "adminpass123",
-  "email": "admin@empresa.com"
+"usuario": "luis",
+"password": "luis"
 }
 
 
-4. Editar banderas de usuario (permitido, admin)
-
-PUT http://localhost:3000/auth/permission
-headers:
+###### Editar banderas de usuario (permitido, admin)
+// debe cambiar {id} por el id del funcionario a editar
+PUT http://localhost:3000/auth/1737741939145
 Content-Type: application/json
 
-body json
 {
-  "userId": "fargsqw123412sgrtwfgsdfger",
-  "permitido": true,
-  "admin": false
+"permitido":true,
+"admin": true
 }
 
+###### 5. Eliminar usuario
+DELETE http://localhost:3000/auth/1737745599730
+Content-Type: application/json
 
-5. Eliminar usuario
 
-DELETE http://localhost:3000/auth/permission
+Gestion de tarjetas del organigrama (funcionarios)
 
-6. Crear funcionario
 
+###### Crear funcionario
 POST http://localhost:3000/funcionarios
-headers:
 Content-Type: application/json
 
-body json
 {
-  "nombre": "Juan Pérez",
-  "cargo": "Analista de TI",
-  "vertical": "Tecnología",
-  "correo": "jperez@empresa.com"
+"nombre": "Luis Fernando Prieto",
+"cargo": "Lider Tecnico",
+"vertical": "Aplicaciones",
+"correo": "lfprieto@registraduria.gov.co"
 }
 
 
-7. Editar funcionario
-
-PUT http://localhost:3000/funcionarios/{id}  // debe cambiar {id} por el id del funcionario a editar
-headers:
+###### Editar funcionario
+// debe cambiar {id} por el id del funcionario a editar
+PUT http://localhost:3000/funcionarios/fargsqw123412sgrtwfgsdfger
 Content-Type: application/json
 
-body json
 {
-  "nombre": "Juan Pérez",
-  "cargo": "Líder de TI",
-  "vertical": "Tecnología",
-  "activo": true
+//"nombre": "Juan Pérez",
+//"cargo": "Líder de TI",
+//"vertical": "Liderazgo",
+"activo": true
 }
 
 
-8. Eliminar funcionario
-
-DELETE http://localhost:3000/funcionarios/{id} // debe cambiar {id} por el id del funcionario a Eliminar
-headers:
+###### 8. Eliminar funcionario
+// debe cambiar {id} por el id del funcionario a Eliminar
+DELETE http://localhost:3000/funcionarios/fargsqw123412sgrtwfgsdfger
 Content-Type: application/json
+
