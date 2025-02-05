@@ -59,11 +59,12 @@ POST http://localhost:3000/funcionarios
 Content-Type: application/json
 
 {
-"nombre": "Oscar Adrian Rey Leal",
-"cargo": "Especialista de LAN",
-"vertical": "LAN y Seguridad",
-"correo": "oarey@registraduria.gov.co",
-"parentId":"1738168632453"
+"nombre": "Miguel Angel León Monroy",
+"cargo": "Analista de WAN",
+"vertical": "WAN",
+"correo": "maleon@registraduria.gov.co",
+"parentId":"1738168923277",
+"imagen": "./img/yop_visa.jpg"
 }
 
 

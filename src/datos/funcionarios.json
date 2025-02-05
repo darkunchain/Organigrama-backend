@@ -7,7 +7,7 @@
     "id": "1737746292115",
     "estado": true,
     "parentId": "1738168772064",
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop_visa.jpg"
   },
   {
     "nombre": "Luis Fernando Prieto",
@@ -17,7 +17,7 @@
     "id": "1737747456688",
     "estado": true,
     "parentId": "1738167612719",
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop_visa.jpg"
   },
   {
     "nombre": "Rafael Gomez Valderrama",
@@ -27,7 +27,7 @@
     "parentId": "",
     "id": "1738167612719",
     "activo": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop_visa.jpg"
   },
   {
     "nombre": "Lina Maria Cruz Barragan",
@@ -37,7 +37,7 @@
     "parentId": "1738167612719",
     "id": "1738167924881",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop_visa.jpg"
   },
   {
     "nombre": "Jhon Edison Silva Perez",
@@ -47,7 +47,7 @@
     "parentId": "1738167612719",
     "id": "1738168164547",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop_visa.jpg"
   },
   {
     "nombre": "Henry Nelson Gomez Alvarez",
@@ -148,5 +148,115 @@
     "id": "1738169292833",
     "estado": true,
     "imagen": "./img/avatar.svg"
+  },
+  {
+    "nombre": "Bernardo Rueda Hernandez",
+    "cargo": "Agente de soporte en Sitio",
+    "vertical": "Front",
+    "correo": "brueda@registraduria.gov.co",
+    "parentId": "1738167924881",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797055806",
+    "estado": true
+  },
+  {
+    "nombre": "Carlos Alberto Ibañez Mantilla",
+    "cargo": "Agente de soporte en Sitio",
+    "vertical": "Front",
+    "correo": "caibanezm@registraduria.gov.co",
+    "parentId": "1738167924881",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797112327",
+    "estado": true
+  },
+  {
+    "nombre": "Cindy Paola Ruiz Niño",
+    "cargo": "Analista Front",
+    "vertical": "Front",
+    "correo": "caibanezm@registraduria.gov.co",
+    "parentId": "1738167924881",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797152152",
+    "estado": true
+  },
+  {
+    "nombre": "Luis Eduardo Pena Plazas",
+    "cargo": "Especialista Procesos ITIL",
+    "vertical": "Procesos-Calidad",
+    "correo": "lepena@registraduria.gov.co",
+    "parentId": "1738168164547",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797243839",
+    "estado": true
+  },
+  {
+    "nombre": "Jorge Ivan Salinas Herrera",
+    "cargo": "Especialista Calidad",
+    "vertical": "Procesos-Calidad",
+    "correo": "jisalinas@registraduria.gov.co",
+    "parentId": "1738168164547",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797285899",
+    "estado": true
+  },
+  {
+    "nombre": "Julian Velasquez Puentes",
+    "cargo": "Especialista de aplicaciones",
+    "vertical": "Aplicaciones",
+    "correo": "jvelasquezp@registraduria.gov.co",
+    "parentId": "1738168772064",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797375540",
+    "estado": true
+  },
+  {
+    "nombre": "Nelson David Peña Ariza",
+    "cargo": "Especialista DBA",
+    "vertical": "Aplicaciones",
+    "correo": "ndpena@registraduria.gov.co",
+    "parentId": "1738168772064",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797419763",
+    "estado": true
+  },
+  {
+    "nombre": "Marvin Alejandro Gonzalez Beltran",
+    "cargo": "Especialista de Correo",
+    "vertical": "Infraestructura",
+    "correo": "magonzalezb@registraduria.gov.co",
+    "parentId": "1738168831900",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797514909",
+    "estado": true
+  },
+  {
+    "nombre": "Jonathan Barrera Clavijo",
+    "cargo": "Especialista de Infraestructura",
+    "vertical": "Infraestructura",
+    "correo": "Jbarrerac@registraduria.gov.co",
+    "parentId": "1738168831900",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797580661",
+    "estado": true
+  },
+  {
+    "nombre": "Ivan Andres Diaz Barreto",
+    "cargo": "Especialista de WAN",
+    "vertical": "WAN",
+    "correo": "iadiaz@registraduria.gov.co",
+    "parentId": "1738168923277",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797654698",
+    "estado": true
+  },
+  {
+    "nombre": "Miguel Angel León Monroy",
+    "cargo": "Analista de WAN",
+    "vertical": "WAN",
+    "correo": "maleon@registraduria.gov.co",
+    "parentId": "1738168923277",
+    "imagen": "./img/yop_visa.jpg",
+    "id": "1738797707403",
+    "estado": true
   }
 ]
