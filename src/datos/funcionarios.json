@@ -7,7 +7,7 @@
     "id": "1737746292115",
     "estado": true,
     "parentId": "1738168772064",
-    "imagen": "./img/yop5.png"
+    "imagen": "./img/1.png"
   },
   {
     "nombre": "Luis Fernando Prieto",
@@ -17,7 +17,7 @@
     "id": "1737747456688",
     "estado": true,
     "parentId": "1738167612719",
-    "imagen": "./img/yop5.png"
+    "imagen": "./img/yop4.png"
   },
   {
     "nombre": "Rafael Gomez Valderrama",
@@ -27,7 +27,7 @@
     "parentId": "",
     "id": "1738167612719",
     "activo": true,
-    "imagen": "./img/yop1.png"
+    "imagen": "./img/yop5.png"
   },
   {
     "nombre": "Lina Maria Cruz Barragan",
@@ -37,7 +37,7 @@
     "parentId": "1738167612719",
     "id": "1738167924881",
     "estado": true,
-    "imagen": "./img/yop1.png"
+    "imagen": "./img/1.png"
   },
   {
     "nombre": "Jhon Edison Silva Perez",
@@ -47,7 +47,7 @@
     "parentId": "1738167612719",
     "id": "1738168164547",
     "estado": true,
-    "imagen": "./img/yop3.png"
+    "imagen": "./img/2.png"
   },
   {
     "nombre": "Henry Nelson Gomez Alvarez",
@@ -57,7 +57,7 @@
     "parentId": "1738167612719",
     "id": "1738168526745",
     "estado": true,
-    "imagen": "./img/yop4.png"
+    "imagen": "./img/3.png"
   },
   {
     "nombre": "Sandra Patricia Rojas Chaparro",
@@ -77,7 +77,7 @@
     "parentId": "1737747456688",
     "id": "1738168772064",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/4.png"
   },
   {
     "nombre": "Eder Bernal Lopez",
@@ -87,7 +87,7 @@
     "parentId": "1737747456688",
     "id": "1738168831900",
     "estado": true,
-    "imagen": "./img/sp.png"
+    "imagen": "./img/5.png"
   },
   {
     "nombre": "Jorge Luis Rojas Duran",
@@ -97,7 +97,7 @@
     "parentId": "1737747456688",
     "id": "1738168923277",
     "estado": true,
-    "imagen": "./img/yop4.png"
+    "imagen": "./img/6.png"
   },
   {
     "nombre": "Luis Carlos Garcia Peña",
@@ -107,7 +107,7 @@
     "parentId": "1737747456688",
     "id": "1738168985301",
     "estado": true,
-    "imagen": "./img/yop3.png"
+    "imagen": "./img/7.png"
   },
   {
     "nombre": "Cristian Camilo Guarin Rodriguez",
@@ -117,7 +117,7 @@
     "parentId": "1738168632453",
     "id": "1738169102799",
     "estado": true,
-    "imagen": "./img/yop1.png"
+    "imagen": "./img/8.png"
   },
   {
     "nombre": "Camilo Andres Rojas Bohorquez",
@@ -137,7 +137,7 @@
     "parentId": "1738168632453",
     "id": "1738169242434",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/9.png"
   },
   {
     "nombre": "Oscar Adrian Rey Leal",
@@ -147,7 +147,7 @@
     "parentId": "1738168632453",
     "id": "1738169292833",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/10.png"
   },
   {
     "nombre": "Bernardo Rueda Hernandez",
@@ -155,7 +155,7 @@
     "vertical": "Front",
     "correo": "brueda@registraduria.gov.co",
     "parentId": "1738167924881",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/11.png",
     "id": "1738797055806",
     "estado": true
   },
@@ -165,7 +165,7 @@
     "vertical": "Front",
     "correo": "caibanezm@registraduria.gov.co",
     "parentId": "1738167924881",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/1.png",
     "id": "1738797112327",
     "estado": true
   },
@@ -175,7 +175,7 @@
     "vertical": "Front",
     "correo": "caibanezm@registraduria.gov.co",
     "parentId": "1738167924881",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/2.png",
     "id": "1738797152152",
     "estado": true
   },
@@ -185,7 +185,7 @@
     "vertical": "Procesos-Calidad",
     "correo": "lepena@registraduria.gov.co",
     "parentId": "1738168164547",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/3.png",
     "id": "1738797243839",
     "estado": true
   },
@@ -195,7 +195,7 @@
     "vertical": "Procesos-Calidad",
     "correo": "jisalinas@registraduria.gov.co",
     "parentId": "1738168164547",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/4.png",
     "id": "1738797285899",
     "estado": true
   },
@@ -205,7 +205,7 @@
     "vertical": "Aplicaciones",
     "correo": "jvelasquezp@registraduria.gov.co",
     "parentId": "1738168772064",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/5.png",
     "id": "1738797375540",
     "estado": true
   },
@@ -215,7 +215,7 @@
     "vertical": "Aplicaciones",
     "correo": "ndpena@registraduria.gov.co",
     "parentId": "1738168772064",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/6.png",
     "id": "1738797419763",
     "estado": true
   },
@@ -225,7 +225,7 @@
     "vertical": "Infraestructura",
     "correo": "magonzalezb@registraduria.gov.co",
     "parentId": "1738168831900",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/7.png",
     "id": "1738797514909",
     "estado": true
   },
@@ -235,7 +235,7 @@
     "vertical": "Infraestructura",
     "correo": "Jbarrerac@registraduria.gov.co",
     "parentId": "1738168831900",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/8.png",
     "id": "1738797580661",
     "estado": true
   },
@@ -245,7 +245,7 @@
     "vertical": "WAN",
     "correo": "iadiaz@registraduria.gov.co",
     "parentId": "1738168923277",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/9.png",
     "id": "1738797654698",
     "estado": true
   },
@@ -255,7 +255,7 @@
     "vertical": "WAN",
     "correo": "maleon@registraduria.gov.co",
     "parentId": "1738168923277",
-    "imagen": "./img/yop_visa.jpg",
+    "imagen": "./img/10.png",
     "id": "1738797707403",
     "estado": true
   }
