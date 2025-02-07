@@ -7,7 +7,7 @@
     "id": "1737746292115",
     "estado": true,
     "parentId": "1738168772064",
-    "imagen": "./img/yop_visa.jpg"
+    "imagen": "./img/yop5.png"
   },
   {
     "nombre": "Luis Fernando Prieto",
@@ -17,7 +17,7 @@
     "id": "1737747456688",
     "estado": true,
     "parentId": "1738167612719",
-    "imagen": "./img/yop_visa.jpg"
+    "imagen": "./img/yop5.png"
   },
   {
     "nombre": "Rafael Gomez Valderrama",
@@ -27,7 +27,7 @@
     "parentId": "",
     "id": "1738167612719",
     "activo": true,
-    "imagen": "./img/yop_visa.jpg"
+    "imagen": "./img/yop1.png"
   },
   {
     "nombre": "Lina Maria Cruz Barragan",
@@ -37,7 +37,7 @@
     "parentId": "1738167612719",
     "id": "1738167924881",
     "estado": true,
-    "imagen": "./img/yop_visa.jpg"
+    "imagen": "./img/yop1.png"
   },
   {
     "nombre": "Jhon Edison Silva Perez",
@@ -47,7 +47,7 @@
     "parentId": "1738167612719",
     "id": "1738168164547",
     "estado": true,
-    "imagen": "./img/yop_visa.jpg"
+    "imagen": "./img/yop3.png"
   },
   {
     "nombre": "Henry Nelson Gomez Alvarez",
@@ -57,7 +57,7 @@
     "parentId": "1738167612719",
     "id": "1738168526745",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop4.png"
   },
   {
     "nombre": "Sandra Patricia Rojas Chaparro",
@@ -67,7 +67,7 @@
     "parentId": "1737747456688",
     "id": "1738168632453",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/sp.png"
   },
   {
     "nombre": "Jhonathan Javier Muñoz Guerra",
@@ -87,7 +87,7 @@
     "parentId": "1737747456688",
     "id": "1738168831900",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/sp.png"
   },
   {
     "nombre": "Jorge Luis Rojas Duran",
@@ -97,7 +97,7 @@
     "parentId": "1737747456688",
     "id": "1738168923277",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop4.png"
   },
   {
     "nombre": "Luis Carlos Garcia Peña",
@@ -107,7 +107,7 @@
     "parentId": "1737747456688",
     "id": "1738168985301",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop3.png"
   },
   {
     "nombre": "Cristian Camilo Guarin Rodriguez",
@@ -117,7 +117,7 @@
     "parentId": "1738168632453",
     "id": "1738169102799",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/yop1.png"
   },
   {
     "nombre": "Camilo Andres Rojas Bohorquez",
@@ -127,7 +127,7 @@
     "parentId": "1738168632453",
     "id": "1738169155545",
     "estado": true,
-    "imagen": "./img/avatar.svg"
+    "imagen": "./img/sp.png"
   },
   {
     "nombre": "Alexander Urquijo Timaran",
